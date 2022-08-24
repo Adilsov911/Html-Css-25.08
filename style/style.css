@@ -67,10 +67,11 @@ a{
 .bottom-2 a{
     color: #080808;
 }
-#decoration{
+.decoration{
     padding: 3rem 10rem;
     display: flex;
     justify-content: space-between;
+    margin: auto;
     
     text-align: center;
     flex-wrap: wrap;
@@ -81,6 +82,7 @@ a{
     width: 23%;
     border: 1px solid #fff;
     border-radius: 4px;
+    transition: .5s;
     
 }
 
@@ -98,6 +100,7 @@ a{
 .box .bottom {
     padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
@@ -128,6 +131,10 @@ a{
     margin-left: 20px;
     font-size: 20px;
     color: #080808;
+}
+.decoration .box :hover{
+    box-shadow: 4px 4px 8px 0px;
+    transition: .5s;
 }
     
 
